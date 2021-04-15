@@ -1,8 +1,14 @@
-var username = prompt("Enter the username of the person to spam");
+function lol(){
+  var username = document.getElementById("username").value;
+  var content = document.getElementbyId("message").value;
+  var amount = document.getElementbyId("amount").value;
+}
 
-var content = prompt("Enter your message");
 
-var amount = prompt("Enter the number of times to post the message");
+
+
+
+
 
 function postComment(content, parent_id, commentee_id, username, i) {
   setTimeout(function() {
